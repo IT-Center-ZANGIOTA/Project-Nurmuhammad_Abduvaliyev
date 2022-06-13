@@ -1,0 +1,284 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* main styling */
+
+html,
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+#nav {
+    background-color: white;
+    color: black;
+    overflow: auto;
+    box-shadow: -2px 2px 2px orange;
+}
+
+#nav a {
+    color: black;
+}
+
+#nav h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#nav ul {
+    float: right;
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: inline-block;
+    padding: 25px;
+}
+
+#nav ul li a,
+#nav ul li a.current {
+    background-color: white;
+    color: black;
+}
+
+.konteyner {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary {
+    color: gold;
+}
+
+.tugma {
+    background-color: orange;
+    display: inline-block;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    bottom: 30px;
+}
+
+.colored-line {
+    width: 100%;
+    height: 4px;
+}
+
+.colored-line__item_orange {
+    background-color: orange;
+}
+
+.forimage {
+    width: 100%;
+    height: 580px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+}
+
+.qwe1 {
+    float: right;
+    margin-right: 100px;
+}
+
+.fortext {
+    width: 300px;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.text {
+    width: 360px;
+    height: 120px;
+    font-size: 60px;
+    margin-top: 300px;
+    margin-left: 115px;
+    font-family: Roboto Condensed;
+}
+
+.circle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 100px;
+    background: rgba(255, 117, 0, 0.2);
+}
+
+.circle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 900px;
+    background: rgba(255, 117, 0, 0.2);
+}
+
+.circle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 1600px;
+    background: rgba(255, 117, 0, 0.2);
+}
+
+.forcircles {
+    width: 100%;
+    height: 100px;
+}
+
+.textforfirstcircle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1260px;
+    left: 114px;
+}
+
+.textforsecondcircle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1241px;
+    left: 914px;
+}
+
+.Textforthirdcircle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1238px;
+    left: 1612px;
+}
+
+.tugmacha {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(230, 103, 19);
+    color: white;
+    border-radius: 10px;
+}
+
+.picture {
+    position: absolute;
+    top: 22px;
+    left: 19px;
+}
+
+.picture2 {
+    position: absolute;
+    top: 22px;
+    left: 25px;
+}
+
+.picture3 {
+    position: absolute;
+    top: 22px;
+    left: 28px;
+}
+
+.forbigtext {
+    position: absolute;
+    width: 1400px;
+    height: 500px;
+    background-color: #333;
+    border-radius: 10px;
+    top: 1700px;
+    left: 200px;
+    color: white;
+}
+
+.qwe2 {
+    float: right;
+    margin-right: 100px;
+    margin-top: -300px;
+}
+
+.for2text {
+    width: 300px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 2500px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    margin: 100px;
+}
+
+.site-footer-links-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 224px;
+    height: 159px;
+    /* left: 0px;
+    top: 0px; */
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 68px;
+}
+
+.site-footer-link {
+    position: static;
+    width: 224px;
+    height: 19px;
+    left: 0px;
+    top: 140px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #252420;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+    list-style: none;
+}
