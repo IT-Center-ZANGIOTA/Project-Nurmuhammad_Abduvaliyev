@@ -104,3 +104,10 @@ p {
 .img {
     width: 900px;
 }
+
+.map {
+    border: 1px solid black;
+    width: 870px;
+    height: 450px;
+    margin: auto;
+}
